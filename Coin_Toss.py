@@ -7,7 +7,7 @@ def coin_flip(num):
 
         result = random.randint(1,2)
         #Only one toss
-        if num == 1 and result ==1:
+        if num == 1:
             if result == 1:
                 print('It was Tails')
             else:
